@@ -5,5 +5,5 @@
     android:layout_height="match_parent"
     android:layout_centerHorizontal="true"
     android:layout_centerVertical="true"
-    android:background="?android:attr/colorFocusedHighlight"
+    android:background="#9c27b0"
     android:scrollbars="vertical" />
