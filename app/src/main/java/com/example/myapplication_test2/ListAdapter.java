@@ -41,6 +41,16 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.Holder> {
         }
 
         holder.bind(item);
+        // Start new activity on click of specific item.
+        final int pos = position;
+        holder.itemView.setOnClickListener(
+                new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        mItems.get(pos).launchActivity(mContext);
+                    }
+                });
+
     }
 
     @Override

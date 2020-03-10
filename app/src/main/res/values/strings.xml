@@ -9,4 +9,6 @@
     <string name="progress">Progress</string>
     <string name="textview">TextView</string>
     <string name="todo">TODO</string>
+    <string name="title_activity_dialogs">DialogsActivity</string>
+    <string name="title_activity_progress">ProgressActivity</string>
 </resources>
