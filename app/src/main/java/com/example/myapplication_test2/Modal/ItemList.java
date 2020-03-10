@@ -1,4 +1,4 @@
-package com.example.myapplication_test2;
+package com.example.myapplication_test2.Modal;
 
 import android.app.Activity;
 import android.content.Context;

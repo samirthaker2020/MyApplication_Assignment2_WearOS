@@ -1,4 +1,4 @@
-package com.example.myapplication_test2;
+package com.example.myapplication_test2.Modal;
 
 public class SampleAppConstants {
     /** {@value #NORMAL} Used when sending information to an Adapter class */

@@ -1,13 +1,17 @@
-package com.example.myapplication_test2;
+package com.example.myapplication_test2.Controller;
 
 import android.os.Bundle;
-import android.support.wearable.activity.WearableActivity;
-import android.widget.TextView;
 
 import androidx.fragment.app.FragmentActivity;
 import androidx.wear.ambient.AmbientModeSupport;
 import androidx.wear.widget.WearableLinearLayoutManager;
 import androidx.wear.widget.WearableRecyclerView;
+
+import com.example.myapplication_test2.Adapter.ListAdapter;
+import com.example.myapplication_test2.Modal.ItemList;
+import com.example.myapplication_test2.R;
+import com.example.myapplication_test2.Modal.ScalingScrollLayoutCallback;
+
 import java.util.ArrayList;
 import java.util.List;
 public class MainActivity extends FragmentActivity implements  AmbientModeSupport.AmbientCallbackProvider {
