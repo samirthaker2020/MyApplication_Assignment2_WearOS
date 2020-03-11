@@ -11,4 +11,17 @@
     <string name="todo">TODO</string>
     <string name="title_activity_dialogs">DialogsActivity</string>
     <string name="title_activity_progress">ProgressActivity</string>
+    <string name="title_activity_full_screen">FullScreen</string>
+    <string name="title_activity_in_line">InLine</string>
+
+    <string name="in_line">In-line</string>
+    <string name="full_screen">Full screen</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="start">Start</string>
+    <string name="determinant">Determinant</string>
+    <string name="in_line_progress">In-line Progress</string>
+    <string name="indeterminant_progress">Indeterminant\nProgress</string>
+    <string name="key_pref_determinant_switch">pref_determinant_switch</string>
+    <string name="key_pref_circled_image_view">pref_circled_image_view</string>
+    <string name="key_pref_progress_screen">pref_progress_screen</string>
 </resources>

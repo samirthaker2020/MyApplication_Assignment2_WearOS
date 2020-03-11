@@ -1,5 +1,6 @@
 package com.example.myapplication_test2.Controller;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;
 import android.view.LayoutInflater;
@@ -54,10 +55,12 @@ public class ProgressActivity extends WearableActivity {
 
                 if(lstItem.getDno() == 1)
                 {
-
+                    Intent i = new Intent(getApplicationContext(), FullScreen.class);
+                    startActivity(i);
                 }else if(lstItem.getDno() == 2)
                 {
-
+                    Intent i = new Intent(getApplicationContext(), InLine.class);
+                    startActivity(i);
                 }
 
             }
